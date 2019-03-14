@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TPDM_U2_Practica2_Vallejo</string>
+    <string-array name="tipos_seguros" >
+        <item>Casa</item>
+        <item>Auto</item>
+        <item>Medico</item>
+    </string-array>
+</resources>

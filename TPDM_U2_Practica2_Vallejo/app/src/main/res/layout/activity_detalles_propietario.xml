@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetallesPropietario"
+    android:padding="20dp">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:paddingHorizontal="20dp"
+        android:layout_marginBottom="20dp"
+        >
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detalles de 3111234567"
+            android:layout_columnSpan="2"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#202020"
+            android:id="@+id/detallesPropietario_titulo"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teléfono: "
+            android:layout_marginRight="10dp"
+            android:textColor="#202020"
+            android:layout_marginBottom="10dp"
+            android:textSize="16dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#717171"
+            android:id="@+id/detallesPropietario_telefono"
+            android:textSize="16dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre: "
+            android:layout_marginRight="10dp"
+            android:textColor="#202020"
+            android:layout_marginBottom="10dp"
+            android:textSize="16dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#717171"
+            android:id="@+id/detallesPropietario_nombre"
+            android:textSize="16dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Domicilio: "
+            android:layout_marginRight="10dp"
+            android:textColor="#202020"
+            android:layout_marginBottom="10dp"
+            android:textSize="16dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#717171"
+            android:id="@+id/detallesPropietario_domicilio"
+            android:textSize="16dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha: "
+            android:layout_marginRight="10dp"
+            android:textColor="#202020"
+            android:layout_marginBottom="10dp"
+            android:textSize="16dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#717171"
+            android:id="@+id/detallesPropietario_fecha"
+            android:textSize="16dp"
+
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver seguros"
+            android:background="#FFF"
+            android:textColor="#F05C65"
+            android:layout_marginBottom="20dp"
+            android:layout_columnSpan="2"
+            android:id="@+id/detallesPropietario_btnVerSeguros"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_columnSpan="2">
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Agregar seguro"
+                android:background="#F05C65"
+                android:textColor="#FFF"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/detallesPropietario_btnAgregarSeguro"
+                android:layout_marginRight="20dp"
+                />
+
+            <Button
+                android:id="@+id/detallesPropietario_btnEditar"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="#1E88E5"
+                android:text="Editar"
+                android:textColor="#FFF"
+
+                />
+        </LinearLayout>
+    </GridLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:background="#FFF"
+        android:textColor="#F05C65"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="100dp"
+        android:id="@+id/detallesPropietario_btnRegresar"
+        />
+
+</LinearLayout>
